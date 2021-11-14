@@ -28,6 +28,9 @@
 // #define _TASK_DEFINE_MILLIS      // Force forward declaration of millis() and micros() "C" style
 // #define _TASK_EXTERNAL_TIME      // Custom millis() and micros() methods
 
+// TaskScheduler version macro
+#define TASK_VERSION_STRING	"3.4.0"
+
 class Scheduler;
 
 #define TASK_SCHEDULE       0   // default
